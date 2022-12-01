@@ -1,0 +1,16 @@
+$color: yellow;
+$background: blue;
+
+li {
+  list-style: georgian;
+}
+
+@mixin myBG($bg: dark) {
+  background-color: $bg;
+}
+
+%basic-layout {
+  border: 1px solid pink;
+  width: 200px;
+  height: 200px;
+}

@@ -1,0 +1,11 @@
+@use "core";
+
+.btn {
+  background: core.$background;
+  color: core.$color;
+  @include core.myBG($bg: green);
+}
+
+.active {
+  @extend %basic-layout;
+}
